@@ -19,7 +19,7 @@ public class Circle extends Shape {
     }
 
     @Override
-    public void printDetails() {
+    public void printShape() {
         getArea();
         getPerimeter();
     }

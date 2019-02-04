@@ -10,7 +10,7 @@ public class Shape {
         this.filled = filled;
     }
 
-    public void printDetails() {
+    public void printShape() {
         System.out.println("The shapes color is: " + color);
         System.out.println("Is the shape filled? " + filled);
     }
