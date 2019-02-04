@@ -11,10 +11,16 @@ public class Circle extends Shape {
 
     public void getArea() {
         double i = radius;
-        System.out.println(Math.pow(i, 2)* Math.PI);
+        System.out.println("The circle's Area is: " + Math.pow(i, 2)* Math.PI);
     }
 
     public void getPerimeter() {
-        System.out.println(2*Math.PI*radius);
+        System.out.println("The circle's perimeter is: " + 2*Math.PI*radius);
+    }
+
+    @Override
+    public void printDetails() {
+        getArea();
+        getPerimeter();
     }
 }
