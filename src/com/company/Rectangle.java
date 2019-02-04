@@ -16,7 +16,7 @@ public class Rectangle extends Shape {
     }
 
     public void getPerimeter(){
-        System.out.println("Your Rectangle's perimeter is: " + width + width +length + length);
+        System.out.println("Your Rectangle's perimeter is: " + (width + width +length + length));
     }
 
     @Override
